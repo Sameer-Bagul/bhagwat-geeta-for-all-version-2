@@ -117,9 +117,6 @@ If you want to update the chapter or verse data, modify the `gita.json` file loc
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
