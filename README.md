@@ -117,16 +117,8 @@ If you want to update the chapter or verse data, modify the `gita.json` file loc
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests. Contributions are welcome!
-
----
-
-**Note**: This project was built to deepen understanding of the Bhagavad Gita and to create a digital tool for learning. All the content is derived from freely available translations of the Bhagavad Gita.
-```
 
