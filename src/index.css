@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chapter-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.chapters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chapter-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.chapter-card:hover {
+  background-color: #f0f0f0;
+}
+
+.chapter-detail {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.verses {
+  margin-top: 20px;
+}
+
+.verse {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.language-switcher {
+  text-align: right;
+  margin: 10px 20px;
+}
+
+.language-switcher button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
