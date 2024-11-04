@@ -1,0 +1,87 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #f5f5f5;
+    background: #333;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 700px;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .intro-title {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .intro-subtitle {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  /* Chapters Grid */
+  .chapters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  /* Chapter Card */
+  .chapters-grid .chapter-card {
+    background: #fff;
+    padding: 25px 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .chapters-grid .chapter-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 768px) {
+    .intro-title {
+      font-size: 2.5rem;
+    }
+  
+    .intro-subtitle {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro-title {
+      font-size: 2rem;
+    }
+  
+    .intro-subtitle {
+      font-size: 0.9rem;
+    }
+  }
+  
